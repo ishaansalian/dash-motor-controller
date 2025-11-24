@@ -1,9 +1,5 @@
-# dash-motor-controller
-Motor control PCB for the Dash humanoid robot project.
-
 # 48V BLDC Motor Controller for Dash Robot
-
-Motor control PCB for the NSF-funded Dash humanoid robot project at UIUC RoboDesign Lab.
+Motor control PCB for the Dash humanoid robot project.
 
 ## Specs
 - 48V nominal input
