@@ -5,6 +5,195 @@
 	(uuid "20a8bb8d-b9b1-4b4e-824c-bb442b73bed0")
 	(paper "User" 532.13 402.666)
 	(lib_symbols
+		(symbol "Changzhou Amass Elec XT30(2+2)PB-M.G.B:XT30(2+2)PB-M.G.B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "XT30(2+2)PB-M.G.B"
+				(at -0.254 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.254 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.016 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "XT30(2+2)PB-M.G.B"
+				(at -0.254 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" ""
+				(at -0.254 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" ""
+				(at -0.508 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" ""
+				(at -0.762 14.986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XT30(2+2)PB-M.G.B_1_0"
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 5.08)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "3.3V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "3.3V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "48V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "48V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Dash Motor-easyedapro:0805W8F1503T5E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7592,184 +7781,6 @@
 				)
 			)
 		)
-		(symbol "Dash Motor-easyedapro:XT30PW-M"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Dash Motor-easyedapro:CONN-TH_XT30PW-M"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/XT30PW-M30.G.Y/426930.html"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power:- Output:- Input:- Size:- Interface:- Type:- Colour:- MaximumCurrent:- Type:Aviation model plug RatedVoltage:DC 500V Type1:- NumberOfUSBHoles:- InterfaceType:Male MetalMaterial:- InsulationMaterial:- RatedCurrent:15A RecommendedWireGauge:16/18/20AWG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "XT30PW-M30.G.Y"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "AMASS(艾迈斯)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C431092"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part Name" "AMASS(艾迈斯)航模插头 卧式弯脚 XT30PW-M公头"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "XT30PW-M_1_0"
-				(rectangle
-					(start -3.81 -5.08)
-					(end 3.81 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -1.27 5.08 270)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 6.35 -3.81 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -3.81 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Dash Motor-easyedapro:XY119A-5.0-3P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9633,13 +9644,13 @@
 		(uuid "029ee6de-22e7-4a0a-b88d-e8baac077ad3")
 	)
 	(junction
-		(at 469.9 46.99)
+		(at 464.82 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04bf96c1-979a-42f7-9f3c-d0164cbaf660")
 	)
 	(junction
-		(at 461.518 86.36)
+		(at 456.438 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "051176a2-b9ac-45f7-ae2a-87258a08c862")
@@ -9651,13 +9662,13 @@
 		(uuid "0985a688-0cf6-485a-90e5-057892fa5f0b")
 	)
 	(junction
-		(at 416.56 27.94)
+		(at 411.48 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c54f218-e04a-404b-bea1-514ed169c9cb")
 	)
 	(junction
-		(at 419.1 62.23)
+		(at 414.02 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d5760c4-a9e3-47c1-a587-60e90e4a8a1b")
@@ -9669,7 +9680,7 @@
 		(uuid "0ebdcd33-32c2-4b2a-b751-dfd1d4e9ea5c")
 	)
 	(junction
-		(at 441.96 27.94)
+		(at 436.88 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f472490-7148-4cae-a1ce-5d1e5adcf35e")
@@ -9681,13 +9692,13 @@
 		(uuid "10f99e66-957a-49f8-9438-37b232e6fcaa")
 	)
 	(junction
-		(at 410.21 27.94)
+		(at 405.13 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18cfbcad-832c-4f2b-9ceb-b0b2639986ce")
 	)
 	(junction
-		(at 472.44 52.07)
+		(at 467.36 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "195a39c8-18e3-41e2-bb01-b215fbf73d18")
@@ -9705,19 +9716,19 @@
 		(uuid "28c1b734-df98-46d0-9370-ca03e491913e")
 	)
 	(junction
-		(at 416.56 113.03)
+		(at 411.48 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2922ae8c-324b-499d-b1e6-0d1947aae14b")
 	)
 	(junction
-		(at 483.87 57.15)
+		(at 478.79 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e0790ef-5a18-4103-b34f-81e9923370ee")
 	)
 	(junction
-		(at 419.1 52.07)
+		(at 414.02 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "315bfef5-77b6-4e97-84c7-d81f2591ac66")
@@ -9729,7 +9740,7 @@
 		(uuid "31c98761-47b6-4aca-8a29-0eeccb9eeac7")
 	)
 	(junction
-		(at 529.59 113.03)
+		(at 524.51 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3602feb8-4497-4c62-84d4-88b57edbef8b")
@@ -9753,13 +9764,13 @@
 		(uuid "3f73bdc5-94f1-4970-902f-1059a184d662")
 	)
 	(junction
-		(at 467.36 27.94)
+		(at 462.28 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fccf27e-2cb3-4198-8d00-457fef9d356e")
 	)
 	(junction
-		(at 482.6 111.76)
+		(at 477.52 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44f22a75-95ef-42f9-9c6d-6ed878665c14")
@@ -9771,7 +9782,7 @@
 		(uuid "4517cb70-a46a-41c3-83ee-21361b33db2e")
 	)
 	(junction
-		(at 422.91 27.94)
+		(at 417.83 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4592ec5d-cdd9-462b-a95e-d7afafd10037")
@@ -9783,7 +9794,7 @@
 		(uuid "45d2de8c-1426-49b0-9089-d0679e375807")
 	)
 	(junction
-		(at 480.06 35.56)
+		(at 474.98 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48228363-6f20-4f2f-a287-9f50260fd58d")
@@ -9795,13 +9806,13 @@
 		(uuid "48319711-8ab0-49cb-89f6-0571551d9300")
 	)
 	(junction
-		(at 519.43 86.36)
+		(at 514.35 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b5082a9-7b5f-45c0-82e2-ca52626011f4")
 	)
 	(junction
-		(at 472.44 67.31)
+		(at 467.36 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d77cd46-9a47-4ee1-bec8-1ca473994704")
@@ -9819,7 +9830,7 @@
 		(uuid "4f9f643c-50e1-461d-9e9a-e1c67e004d43")
 	)
 	(junction
-		(at 419.1 57.15)
+		(at 414.02 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "552b6596-2b32-4a99-9acb-7ef3d112c776")
@@ -9831,7 +9842,7 @@
 		(uuid "566ecddb-d7e2-403f-a217-0f4974fb1924")
 	)
 	(junction
-		(at 482.6 106.68)
+		(at 477.52 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58653b01-19a0-4d0e-8f07-20598d8608aa")
@@ -9843,7 +9854,7 @@
 		(uuid "58a4f4a1-0d80-4c2b-b225-9f067389d27c")
 	)
 	(junction
-		(at 375.92 107.95)
+		(at 370.84 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a3297ac-93f8-4c09-929e-897c1d857cb3")
@@ -9855,7 +9866,7 @@
 		(uuid "5cd72420-6392-49f3-bf80-dc97c1d824f4")
 	)
 	(junction
-		(at 467.36 35.56)
+		(at 462.28 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fb9db97-6f72-40c8-90e4-d338ac403ca4")
@@ -9867,19 +9878,19 @@
 		(uuid "60bff4ad-6647-420c-b26e-223e152695b3")
 	)
 	(junction
-		(at 472.44 62.23)
+		(at 467.36 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "614075a6-23c4-4264-a807-1b94931f7c0e")
 	)
 	(junction
-		(at 454.66 27.94)
+		(at 449.58 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "614bd38a-63ef-4b14-b384-220048701e56")
 	)
 	(junction
-		(at 492.76 35.56)
+		(at 487.68 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63234f45-46f0-4c87-a168-1ac1a80f9477")
@@ -9891,7 +9902,7 @@
 		(uuid "638a89bc-6b8a-400e-832c-3d784dc509df")
 	)
 	(junction
-		(at 467.36 134.62)
+		(at 462.28 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64cd1317-0272-429e-9cae-e6d7411bebd3")
@@ -9903,13 +9914,13 @@
 		(uuid "6bfb2d9c-5a08-4b4d-bc89-1d61c618ec5d")
 	)
 	(junction
-		(at 524.51 52.07)
+		(at 519.43 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e64942c-55fb-430f-b440-5bf6a0a4a5c3")
 	)
 	(junction
-		(at 454.66 35.56)
+		(at 449.58 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f00b6a4-0241-4dfc-ab8c-64b80a5e5587")
@@ -9927,7 +9938,7 @@
 		(uuid "72aae462-2a21-402a-aff4-0797aed07b33")
 	)
 	(junction
-		(at 480.06 27.94)
+		(at 474.98 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7455c5d9-ffb9-48ed-9afc-a171d52e09e4")
@@ -9945,19 +9956,19 @@
 		(uuid "78323efa-10ab-4c47-b69d-ad1579f3d10d")
 	)
 	(junction
-		(at 441.96 35.56)
+		(at 436.88 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b4ded79-6679-43c9-8ccb-8d4c9b13c2ad")
 	)
 	(junction
-		(at 429.26 27.94)
+		(at 424.18 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c4eb43e-5e29-4c1b-8380-42117497e014")
 	)
 	(junction
-		(at 465.328 86.36)
+		(at 460.248 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e503af3-4297-476e-93d2-5959d6ef21c4")
@@ -9975,7 +9986,7 @@
 		(uuid "8a269918-5a97-4094-b4bd-c21b5fc64fe1")
 	)
 	(junction
-		(at 509.27 134.62)
+		(at 504.19 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e604f09-426f-497b-b604-0ebf03bf235c")
@@ -9987,19 +9998,19 @@
 		(uuid "8ffce428-bba8-4baf-bf44-ae03006bbc15")
 	)
 	(junction
-		(at 524.51 62.23)
+		(at 519.43 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9144c48f-2bd5-4feb-97d2-7e63265e26b7")
 	)
 	(junction
-		(at 486.41 35.56)
+		(at 481.33 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92a0869a-ee9c-4d83-a9af-1b852a7e433b")
 	)
 	(junction
-		(at 461.01 35.56)
+		(at 455.93 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93f5945a-943b-45f3-a3b1-f1da0f79200a")
@@ -10011,7 +10022,7 @@
 		(uuid "959e1d1d-5949-4d9c-974c-ddd5477afd79")
 	)
 	(junction
-		(at 448.31 35.56)
+		(at 443.23 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99fb207b-1cfc-4f51-b68e-beb1b86e3091")
@@ -10029,13 +10040,13 @@
 		(uuid "9ea14846-a828-43ab-991c-8fc48e4a0792")
 	)
 	(junction
-		(at 435.61 35.56)
+		(at 430.53 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fa01c2b-f232-438d-9b58-f68481ae8d0b")
 	)
 	(junction
-		(at 482.6 101.6)
+		(at 477.52 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a69ecd44-89c2-4669-a1ac-93b0b2f25cbc")
@@ -10047,19 +10058,19 @@
 		(uuid "a9622dbf-d79c-4156-b6d0-07469d06761f")
 	)
 	(junction
-		(at 511.81 86.36)
+		(at 506.73 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa72b071-58bd-465b-9313-1b81aee3171f")
 	)
 	(junction
-		(at 403.86 27.94)
+		(at 398.78 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad516624-af7c-4c0f-badb-cb73f9d60fb6")
 	)
 	(junction
-		(at 416.56 35.56)
+		(at 411.48 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1abdb9d-5cbd-4b0d-ab16-9a93298d4b99")
@@ -10071,55 +10082,55 @@
 		(uuid "b4b25134-85df-4121-92f8-851112de8cd3")
 	)
 	(junction
-		(at 529.59 107.95)
+		(at 524.51 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b63246f7-509c-4526-abd0-ea41a022e5b9")
 	)
 	(junction
-		(at 435.61 27.94)
+		(at 430.53 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba01e179-48d4-48d8-ae03-be5e36f74430")
 	)
 	(junction
-		(at 422.91 35.56)
+		(at 417.83 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc95fbc2-4cdc-40e5-9b82-d5e8e75bc4ae")
 	)
 	(junction
-		(at 492.76 27.94)
+		(at 487.68 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be294d04-d909-4f18-b5c3-c757bb41a82a")
 	)
 	(junction
-		(at 416.56 107.95)
+		(at 411.48 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c24afbe6-cd52-4505-9a9e-66a182775218")
 	)
 	(junction
-		(at 529.59 102.87)
+		(at 524.51 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3ec5bd8-67d6-4328-828b-51b86ca439d9")
 	)
 	(junction
-		(at 407.67 134.62)
+		(at 402.59 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5ab6440-73e0-47a7-bd5e-7f7773e0075c")
 	)
 	(junction
-		(at 429.26 35.56)
+		(at 424.18 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5b08602-e78a-4737-bb93-ba3e0c694533")
 	)
 	(junction
-		(at 431.8 57.15)
+		(at 426.72 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7d224f0-998a-4c7f-8823-9be0e0d6a448")
@@ -10131,37 +10142,37 @@
 		(uuid "c8f5b7d0-4f87-40c8-90db-e1cc6e3cc7b9")
 	)
 	(junction
-		(at 378.46 57.15)
+		(at 373.38 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca2ffb20-5ef9-4d05-8972-9f6c52a21a00")
 	)
 	(junction
-		(at 410.21 35.56)
+		(at 405.13 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdf465b4-3f37-46b3-85b0-68c2fc0c7643")
 	)
 	(junction
-		(at 473.71 35.56)
+		(at 468.63 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4597ee8-92a3-4c97-a6c0-b25789235cc5")
 	)
 	(junction
-		(at 488.95 107.95)
+		(at 483.87 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d694892f-f865-4d5a-a696-833df43ca5a2")
 	)
 	(junction
-		(at 472.44 57.15)
+		(at 467.36 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8c0d391-4547-41b0-8426-30b19ead3f15")
 	)
 	(junction
-		(at 416.56 110.49)
+		(at 411.48 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8f7b767-993a-4e39-ba4b-4b88741a775b")
@@ -10173,43 +10184,43 @@
 		(uuid "da9d1fe2-5286-47cd-abdf-6c4a87151e63")
 	)
 	(junction
-		(at 403.86 35.56)
+		(at 398.78 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd468c29-14d5-4731-9d5a-43c9eb5493f4")
 	)
 	(junction
-		(at 461.01 27.94)
+		(at 455.93 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df77cf2a-7c94-4aa6-8c25-ff885156ed54")
 	)
 	(junction
-		(at 473.71 27.94)
+		(at 468.63 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1540986-cdcd-4151-b854-bde1101d7056")
 	)
 	(junction
-		(at 439.42 106.68)
+		(at 434.34 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e180a5b7-c083-47cb-9cfe-f39727be15ee")
 	)
 	(junction
-		(at 419.1 87.63)
+		(at 414.02 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6b96c41-c02c-4736-ae69-fe17ca8e13c7")
 	)
 	(junction
-		(at 524.51 57.15)
+		(at 519.43 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e739f304-7015-4880-981a-5324cd8a3924")
 	)
 	(junction
-		(at 450.85 124.46)
+		(at 445.77 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7a46c71-283f-4648-afc7-099f61bd7d8e")
@@ -10227,19 +10238,19 @@
 		(uuid "ec69b364-8abf-4db4-856a-f41858d0da35")
 	)
 	(junction
-		(at 420.878 87.63)
+		(at 415.798 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efc13e6e-b2cb-484d-ab39-5d48088cef3f")
 	)
 	(junction
-		(at 486.41 27.94)
+		(at 481.33 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1647cc3-6114-4efd-bf40-dbfda5532ba5")
 	)
 	(junction
-		(at 472.44 46.99)
+		(at 467.36 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f35b5df5-7926-4ef0-907c-6fb039d57b6e")
@@ -10251,14 +10262,14 @@
 		(uuid "f58cdc3f-a752-48c5-b5d0-e19b8060dcca")
 	)
 	(junction
-		(at 448.31 27.94)
+		(at 443.23 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6f87f18-285f-45e3-b0c6-1dc352e9733c")
 	)
 	(wire
 		(pts
-			(xy 492.76 27.94) (xy 499.11 27.94)
+			(xy 487.68 20.32) (xy 494.03 20.32)
 		)
 		(stroke
 			(width 0)
@@ -10268,7 +10279,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 27.94) (xy 422.91 27.94)
+			(xy 411.48 20.32) (xy 417.83 20.32)
 		)
 		(stroke
 			(width 0)
@@ -10288,7 +10299,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 82.55) (xy 419.1 82.55)
+			(xy 365.76 74.93) (xy 414.02 74.93)
 		)
 		(stroke
 			(width 0)
@@ -10348,7 +10359,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 127) (xy 448.31 127)
+			(xy 445.77 119.38) (xy 443.23 119.38)
 		)
 		(stroke
 			(width 0)
@@ -10358,7 +10369,7 @@
 	)
 	(wire
 		(pts
-			(xy 403.86 27.94) (xy 410.21 27.94)
+			(xy 398.78 20.32) (xy 405.13 20.32)
 		)
 		(stroke
 			(width 0)
@@ -10408,7 +10419,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.518 86.36) (xy 453.898 86.36)
+			(xy 456.438 78.74) (xy 448.818 78.74)
 		)
 		(stroke
 			(width 0)
@@ -10418,7 +10429,7 @@
 	)
 	(wire
 		(pts
-			(xy 488.95 102.87) (xy 488.95 107.95)
+			(xy 483.87 95.25) (xy 483.87 100.33)
 		)
 		(stroke
 			(width 0)
@@ -10448,7 +10459,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 107.95) (xy 379.73 107.95)
+			(xy 370.84 100.33) (xy 374.65 100.33)
 		)
 		(stroke
 			(width 0)
@@ -10508,7 +10519,7 @@
 	)
 	(wire
 		(pts
-			(xy 473.71 35.56) (xy 480.06 35.56)
+			(xy 468.63 27.94) (xy 474.98 27.94)
 		)
 		(stroke
 			(width 0)
@@ -10528,7 +10539,7 @@
 	)
 	(wire
 		(pts
-			(xy 483.87 62.23) (xy 483.87 57.15)
+			(xy 478.79 54.61) (xy 478.79 49.53)
 		)
 		(stroke
 			(width 0)
@@ -10538,7 +10549,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 102.87) (xy 529.59 93.98)
+			(xy 524.51 95.25) (xy 524.51 86.36)
 		)
 		(stroke
 			(width 0)
@@ -10548,7 +10559,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 124.46) (xy 431.8 106.68)
+			(xy 426.72 116.84) (xy 426.72 99.06)
 		)
 		(stroke
 			(width 0)
@@ -10558,7 +10569,7 @@
 	)
 	(wire
 		(pts
-			(xy 422.91 35.56) (xy 429.26 35.56)
+			(xy 417.83 27.94) (xy 424.18 27.94)
 		)
 		(stroke
 			(width 0)
@@ -10568,7 +10579,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 113.03) (xy 529.59 107.95)
+			(xy 524.51 105.41) (xy 524.51 100.33)
 		)
 		(stroke
 			(width 0)
@@ -10618,7 +10629,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 46.99) (xy 524.51 46.99)
+			(xy 467.36 39.37) (xy 519.43 39.37)
 		)
 		(stroke
 			(width 0)
@@ -10628,7 +10639,7 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 111.76) (xy 482.6 106.68)
+			(xy 477.52 104.14) (xy 477.52 99.06)
 		)
 		(stroke
 			(width 0)
@@ -10648,7 +10659,7 @@
 	)
 	(wire
 		(pts
-			(xy 488.95 107.95) (xy 486.41 107.95)
+			(xy 483.87 100.33) (xy 481.33 100.33)
 		)
 		(stroke
 			(width 0)
@@ -10658,13 +10669,23 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 134.62) (xy 407.67 134.62)
+			(xy 364.49 127) (xy 402.59 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1bfc55c9-d2d0-47e1-9496-c64aed952d34")
+	)
+	(wire
+		(pts
+			(xy 82.55 198.12) (xy 97.79 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c056476-03a5-4e0e-bbb2-dd52910bfdf1")
 	)
 	(wire
 		(pts
@@ -10678,7 +10699,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 124.46) (xy 431.8 124.46)
+			(xy 445.77 116.84) (xy 426.72 116.84)
 		)
 		(stroke
 			(width 0)
@@ -10708,7 +10729,7 @@
 	)
 	(wire
 		(pts
-			(xy 403.86 35.56) (xy 410.21 35.56)
+			(xy 398.78 27.94) (xy 405.13 27.94)
 		)
 		(stroke
 			(width 0)
@@ -10738,7 +10759,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 57.15) (xy 472.44 62.23)
+			(xy 467.36 49.53) (xy 467.36 54.61)
 		)
 		(stroke
 			(width 0)
@@ -10828,7 +10849,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 67.31) (xy 378.46 67.31)
+			(xy 370.84 59.69) (xy 373.38 59.69)
 		)
 		(stroke
 			(width 0)
@@ -10838,7 +10859,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 27.94) (xy 467.36 27.94)
+			(xy 455.93 20.32) (xy 462.28 20.32)
 		)
 		(stroke
 			(width 0)
@@ -10905,6 +10926,16 @@
 			(type default)
 		)
 		(uuid "2fc37df6-1e03-4816-af6f-9fee7f261254")
+	)
+	(wire
+		(pts
+			(xy 85.09 224.79) (xy 100.33 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308eb89f-eca8-41f7-8771-7cabdd94aa6b")
 	)
 	(wire
 		(pts
@@ -10988,7 +11019,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.518 86.36) (xy 465.328 86.36)
+			(xy 456.438 78.74) (xy 460.248 78.74)
 		)
 		(stroke
 			(width 0)
@@ -10998,7 +11029,7 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 156.21) (xy 483.87 156.21)
+			(xy 424.18 148.59) (xy 478.79 148.59)
 		)
 		(stroke
 			(width 0)
@@ -11048,7 +11079,7 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 35.56) (xy 416.56 35.56)
+			(xy 405.13 27.94) (xy 411.48 27.94)
 		)
 		(stroke
 			(width 0)
@@ -11078,7 +11109,7 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 27.94) (xy 416.56 27.94)
+			(xy 405.13 20.32) (xy 411.48 20.32)
 		)
 		(stroke
 			(width 0)
@@ -11088,7 +11119,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 113.03) (xy 416.56 118.11)
+			(xy 411.48 105.41) (xy 411.48 110.49)
 		)
 		(stroke
 			(width 0)
@@ -11118,7 +11149,7 @@
 	)
 	(wire
 		(pts
-			(xy 511.81 86.36) (xy 502.92 86.36)
+			(xy 506.73 78.74) (xy 497.84 78.74)
 		)
 		(stroke
 			(width 0)
@@ -11188,7 +11219,7 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 35.56) (xy 461.01 35.56)
+			(xy 449.58 27.94) (xy 455.93 27.94)
 		)
 		(stroke
 			(width 0)
@@ -11238,7 +11269,7 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 57.15) (xy 419.1 62.23)
+			(xy 414.02 49.53) (xy 414.02 54.61)
 		)
 		(stroke
 			(width 0)
@@ -11268,7 +11299,7 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 67.31) (xy 431.8 67.31)
+			(xy 424.18 59.69) (xy 426.72 59.69)
 		)
 		(stroke
 			(width 0)
@@ -11278,7 +11309,7 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 27.94) (xy 435.61 27.94)
+			(xy 424.18 20.32) (xy 430.53 20.32)
 		)
 		(stroke
 			(width 0)
@@ -11288,7 +11319,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 35.56) (xy 441.96 35.56)
+			(xy 430.53 27.94) (xy 436.88 27.94)
 		)
 		(stroke
 			(width 0)
@@ -11308,7 +11339,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 107.95) (xy 375.92 107.95)
+			(xy 364.49 100.33) (xy 370.84 100.33)
 		)
 		(stroke
 			(width 0)
@@ -11338,7 +11369,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 62.23) (xy 431.8 57.15)
+			(xy 426.72 54.61) (xy 426.72 49.53)
 		)
 		(stroke
 			(width 0)
@@ -11358,7 +11389,7 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 101.6) (xy 482.6 92.71)
+			(xy 477.52 93.98) (xy 477.52 85.09)
 		)
 		(stroke
 			(width 0)
@@ -11398,7 +11429,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.01 35.56) (xy 467.36 35.56)
+			(xy 455.93 27.94) (xy 462.28 27.94)
 		)
 		(stroke
 			(width 0)
@@ -11408,7 +11439,17 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 93.98) (xy 511.81 93.98)
+			(xy 92.71 229.87) (xy 100.33 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "505ad52a-af08-4155-aac1-5db4005e3135")
+	)
+	(wire
+		(pts
+			(xy 524.51 86.36) (xy 506.73 86.36)
 		)
 		(stroke
 			(width 0)
@@ -11438,7 +11479,7 @@
 	)
 	(wire
 		(pts
-			(xy 420.37 134.62) (xy 467.36 134.62)
+			(xy 415.29 127) (xy 462.28 127)
 		)
 		(stroke
 			(width 0)
@@ -11448,7 +11489,7 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 62.23) (xy 419.1 67.31)
+			(xy 414.02 54.61) (xy 414.02 59.69)
 		)
 		(stroke
 			(width 0)
@@ -11468,7 +11509,7 @@
 	)
 	(wire
 		(pts
-			(xy 420.878 87.63) (xy 429.26 87.63)
+			(xy 415.798 80.01) (xy 424.18 80.01)
 		)
 		(stroke
 			(width 0)
@@ -11478,7 +11519,17 @@
 	)
 	(wire
 		(pts
-			(xy 468.63 67.31) (xy 472.44 67.31)
+			(xy 90.17 195.58) (xy 97.79 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc37522-fece-41a2-92ef-48f39193b795")
+	)
+	(wire
+		(pts
+			(xy 463.55 59.69) (xy 467.36 59.69)
 		)
 		(stroke
 			(width 0)
@@ -11488,7 +11539,7 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 116.84) (xy 482.6 116.84)
+			(xy 474.98 109.22) (xy 477.52 109.22)
 		)
 		(stroke
 			(width 0)
@@ -11528,16 +11579,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 217.17) (xy 95.25 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f7f402e-61d8-4e4c-b780-36edd04731a7")
-	)
-	(wire
-		(pts
 			(xy 227.33 52.07) (xy 223.52 52.07)
 		)
 		(stroke
@@ -11558,7 +11599,7 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 46.99) (xy 419.1 52.07)
+			(xy 414.02 39.37) (xy 414.02 44.45)
 		)
 		(stroke
 			(width 0)
@@ -11598,7 +11639,7 @@
 	)
 	(wire
 		(pts
-			(xy 465.328 86.36) (xy 485.14 86.36)
+			(xy 460.248 78.74) (xy 480.06 78.74)
 		)
 		(stroke
 			(width 0)
@@ -11608,7 +11649,7 @@
 	)
 	(wire
 		(pts
-			(xy 483.87 52.07) (xy 483.87 57.15)
+			(xy 478.79 44.45) (xy 478.79 49.53)
 		)
 		(stroke
 			(width 0)
@@ -11628,7 +11669,7 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 46.99) (xy 472.44 46.99)
+			(xy 464.82 39.37) (xy 467.36 39.37)
 		)
 		(stroke
 			(width 0)
@@ -11658,7 +11699,7 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 87.63) (xy 419.1 110.49)
+			(xy 414.02 80.01) (xy 414.02 102.87)
 		)
 		(stroke
 			(width 0)
@@ -11668,17 +11709,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 214.63) (xy 95.25 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6560475d-5324-4a8e-864e-3bc5262a5369")
-	)
-	(wire
-		(pts
-			(xy 419.1 87.63) (xy 420.878 87.63)
+			(xy 414.02 80.01) (xy 415.798 80.01)
 		)
 		(stroke
 			(width 0)
@@ -11718,7 +11749,7 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 86.36) (xy 485.14 156.21)
+			(xy 480.06 78.74) (xy 480.06 148.59)
 		)
 		(stroke
 			(width 0)
@@ -11728,7 +11759,7 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 52.07) (xy 524.51 57.15)
+			(xy 519.43 44.45) (xy 519.43 49.53)
 		)
 		(stroke
 			(width 0)
@@ -11738,7 +11769,7 @@
 	)
 	(wire
 		(pts
-			(xy 511.81 86.36) (xy 511.81 93.98)
+			(xy 506.73 78.74) (xy 506.73 86.36)
 		)
 		(stroke
 			(width 0)
@@ -11798,7 +11829,17 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 107.95) (xy 486.41 125.73)
+			(xy 90.17 203.2) (xy 97.79 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d03cc0e-02ea-461c-9aa1-1adc1d37a96a")
+	)
+	(wire
+		(pts
+			(xy 481.33 100.33) (xy 481.33 118.11)
 		)
 		(stroke
 			(width 0)
@@ -11818,7 +11859,17 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 134.62) (xy 407.67 146.05)
+			(xy 92.71 222.25) (xy 100.33 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d985c5a-1bf8-4ff2-a9c4-aaf5a74ff531")
+	)
+	(wire
+		(pts
+			(xy 402.59 127) (xy 402.59 138.43)
 		)
 		(stroke
 			(width 0)
@@ -11838,7 +11889,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 118.11) (xy 529.59 113.03)
+			(xy 524.51 110.49) (xy 524.51 105.41)
 		)
 		(stroke
 			(width 0)
@@ -11848,7 +11899,7 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 87.63) (xy 429.26 156.21)
+			(xy 424.18 80.01) (xy 424.18 148.59)
 		)
 		(stroke
 			(width 0)
@@ -11878,7 +11929,7 @@
 	)
 	(wire
 		(pts
-			(xy 403.86 21.59) (xy 403.86 27.94)
+			(xy 398.78 13.97) (xy 398.78 20.32)
 		)
 		(stroke
 			(width 0)
@@ -11888,7 +11939,7 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 125.73) (xy 509.27 134.62)
+			(xy 504.19 118.11) (xy 504.19 127)
 		)
 		(stroke
 			(width 0)
@@ -11928,7 +11979,7 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 67.31) (xy 483.87 67.31)
+			(xy 474.98 59.69) (xy 478.79 59.69)
 		)
 		(stroke
 			(width 0)
@@ -11968,7 +12019,7 @@
 	)
 	(wire
 		(pts
-			(xy 488.95 120.65) (xy 488.95 118.11)
+			(xy 483.87 113.03) (xy 483.87 110.49)
 		)
 		(stroke
 			(width 0)
@@ -11988,7 +12039,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.518 86.36) (xy 461.518 81.28)
+			(xy 456.438 78.74) (xy 456.438 73.66)
 		)
 		(stroke
 			(width 0)
@@ -11998,7 +12049,7 @@
 	)
 	(wire
 		(pts
-			(xy 422.91 27.94) (xy 429.26 27.94)
+			(xy 417.83 20.32) (xy 424.18 20.32)
 		)
 		(stroke
 			(width 0)
@@ -12038,7 +12089,7 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 110.49) (xy 416.56 110.49)
+			(xy 414.02 102.87) (xy 411.48 102.87)
 		)
 		(stroke
 			(width 0)
@@ -12058,7 +12109,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 35.56) (xy 422.91 35.56)
+			(xy 411.48 27.94) (xy 417.83 27.94)
 		)
 		(stroke
 			(width 0)
@@ -12078,7 +12129,7 @@
 	)
 	(wire
 		(pts
-			(xy 473.71 27.94) (xy 480.06 27.94)
+			(xy 468.63 20.32) (xy 474.98 20.32)
 		)
 		(stroke
 			(width 0)
@@ -12098,7 +12149,7 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 81.28) (xy 461.518 81.28)
+			(xy 419.1 73.66) (xy 456.438 73.66)
 		)
 		(stroke
 			(width 0)
@@ -12118,7 +12169,7 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 111.76) (xy 482.6 111.76)
+			(xy 474.98 104.14) (xy 477.52 104.14)
 		)
 		(stroke
 			(width 0)
@@ -12128,7 +12179,7 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 52.07) (xy 419.1 57.15)
+			(xy 414.02 44.45) (xy 414.02 49.53)
 		)
 		(stroke
 			(width 0)
@@ -12138,7 +12189,7 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 35.56) (xy 486.41 35.56)
+			(xy 474.98 27.94) (xy 481.33 27.94)
 		)
 		(stroke
 			(width 0)
@@ -12188,7 +12239,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 52.07) (xy 431.8 57.15)
+			(xy 426.72 44.45) (xy 426.72 49.53)
 		)
 		(stroke
 			(width 0)
@@ -12218,7 +12269,7 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 57.15) (xy 524.51 62.23)
+			(xy 519.43 49.53) (xy 519.43 54.61)
 		)
 		(stroke
 			(width 0)
@@ -12248,7 +12299,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 57.15) (xy 370.84 82.55)
+			(xy 365.76 49.53) (xy 365.76 74.93)
 		)
 		(stroke
 			(width 0)
@@ -12258,7 +12309,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 102.87) (xy 416.56 107.95)
+			(xy 411.48 95.25) (xy 411.48 100.33)
 		)
 		(stroke
 			(width 0)
@@ -12288,7 +12339,7 @@
 	)
 	(wire
 		(pts
-			(xy 488.95 156.21) (xy 530.86 156.21)
+			(xy 483.87 148.59) (xy 525.78 148.59)
 		)
 		(stroke
 			(width 0)
@@ -12308,7 +12359,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 107.95) (xy 416.56 110.49)
+			(xy 411.48 100.33) (xy 411.48 102.87)
 		)
 		(stroke
 			(width 0)
@@ -12328,7 +12379,7 @@
 	)
 	(wire
 		(pts
-			(xy 474.98 57.15) (xy 483.87 57.15)
+			(xy 469.9 49.53) (xy 478.79 49.53)
 		)
 		(stroke
 			(width 0)
@@ -12348,7 +12399,7 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 57.15) (xy 431.8 57.15)
+			(xy 419.1 49.53) (xy 426.72 49.53)
 		)
 		(stroke
 			(width 0)
@@ -12368,7 +12419,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 124.46) (xy 450.85 124.46)
+			(xy 462.28 116.84) (xy 445.77 116.84)
 		)
 		(stroke
 			(width 0)
@@ -12388,7 +12439,7 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 106.68) (xy 482.6 101.6)
+			(xy 477.52 99.06) (xy 477.52 93.98)
 		)
 		(stroke
 			(width 0)
@@ -12428,7 +12479,7 @@
 	)
 	(wire
 		(pts
-			(xy 448.31 35.56) (xy 454.66 35.56)
+			(xy 443.23 27.94) (xy 449.58 27.94)
 		)
 		(stroke
 			(width 0)
@@ -12438,7 +12489,7 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 134.62) (xy 407.67 134.62)
+			(xy 405.13 127) (xy 402.59 127)
 		)
 		(stroke
 			(width 0)
@@ -12448,7 +12499,7 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 87.63) (xy 414.782 87.63)
+			(xy 414.02 80.01) (xy 409.702 80.01)
 		)
 		(stroke
 			(width 0)
@@ -12468,7 +12519,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 106.68) (xy 439.42 111.76)
+			(xy 434.34 99.06) (xy 434.34 104.14)
 		)
 		(stroke
 			(width 0)
@@ -12508,7 +12559,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 57.15) (xy 378.46 57.15)
+			(xy 365.76 49.53) (xy 373.38 49.53)
 		)
 		(stroke
 			(width 0)
@@ -12538,7 +12589,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 107.95) (xy 369.57 134.62)
+			(xy 364.49 100.33) (xy 364.49 127)
 		)
 		(stroke
 			(width 0)
@@ -12558,7 +12609,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 107.95) (xy 375.92 113.03)
+			(xy 370.84 100.33) (xy 370.84 105.41)
 		)
 		(stroke
 			(width 0)
@@ -12598,7 +12649,7 @@
 	)
 	(wire
 		(pts
-			(xy 474.98 80.01) (xy 474.98 57.15)
+			(xy 469.9 72.39) (xy 469.9 49.53)
 		)
 		(stroke
 			(width 0)
@@ -12678,7 +12729,7 @@
 	)
 	(wire
 		(pts
-			(xy 474.98 80.01) (xy 511.81 80.01)
+			(xy 469.9 72.39) (xy 506.73 72.39)
 		)
 		(stroke
 			(width 0)
@@ -12698,7 +12749,7 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 27.94) (xy 492.76 27.94)
+			(xy 481.33 20.32) (xy 487.68 20.32)
 		)
 		(stroke
 			(width 0)
@@ -12718,7 +12769,7 @@
 	)
 	(wire
 		(pts
-			(xy 441.96 35.56) (xy 448.31 35.56)
+			(xy 436.88 27.94) (xy 443.23 27.94)
 		)
 		(stroke
 			(width 0)
@@ -12738,7 +12789,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 110.49) (xy 416.56 113.03)
+			(xy 411.48 102.87) (xy 411.48 105.41)
 		)
 		(stroke
 			(width 0)
@@ -12778,7 +12829,7 @@
 	)
 	(wire
 		(pts
-			(xy 461.518 86.36) (xy 461.518 92.71)
+			(xy 456.438 78.74) (xy 456.438 85.09)
 		)
 		(stroke
 			(width 0)
@@ -12808,7 +12859,7 @@
 	)
 	(wire
 		(pts
-			(xy 530.86 86.36) (xy 519.43 86.36)
+			(xy 525.78 78.74) (xy 514.35 78.74)
 		)
 		(stroke
 			(width 0)
@@ -12838,7 +12889,7 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 46.99) (xy 469.9 46.99)
+			(xy 414.02 39.37) (xy 464.82 39.37)
 		)
 		(stroke
 			(width 0)
@@ -12868,7 +12919,17 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 62.23) (xy 524.51 67.31)
+			(xy 82.55 200.66) (xy 97.79 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52e7d0d-dba4-4292-a2a4-a9b564fe3c4b")
+	)
+	(wire
+		(pts
+			(xy 519.43 54.61) (xy 519.43 59.69)
 		)
 		(stroke
 			(width 0)
@@ -12878,7 +12939,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 102.87) (xy 375.92 107.95)
+			(xy 370.84 95.25) (xy 370.84 100.33)
 		)
 		(stroke
 			(width 0)
@@ -12928,7 +12989,7 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 27.94) (xy 486.41 27.94)
+			(xy 474.98 20.32) (xy 481.33 20.32)
 		)
 		(stroke
 			(width 0)
@@ -12978,7 +13039,7 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 81.28) (xy 424.18 57.15)
+			(xy 419.1 73.66) (xy 419.1 49.53)
 		)
 		(stroke
 			(width 0)
@@ -12988,7 +13049,7 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 87.63) (xy 419.1 82.55)
+			(xy 414.02 80.01) (xy 414.02 74.93)
 		)
 		(stroke
 			(width 0)
@@ -13028,7 +13089,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 27.94) (xy 441.96 27.94)
+			(xy 430.53 20.32) (xy 436.88 20.32)
 		)
 		(stroke
 			(width 0)
@@ -13048,7 +13109,7 @@
 	)
 	(wire
 		(pts
-			(xy 530.86 156.21) (xy 530.86 86.36)
+			(xy 525.78 148.59) (xy 525.78 78.74)
 		)
 		(stroke
 			(width 0)
@@ -13068,7 +13129,7 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 107.95) (xy 529.59 102.87)
+			(xy 524.51 100.33) (xy 524.51 95.25)
 		)
 		(stroke
 			(width 0)
@@ -13098,7 +13159,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 62.23) (xy 472.44 67.31)
+			(xy 467.36 54.61) (xy 467.36 59.69)
 		)
 		(stroke
 			(width 0)
@@ -13158,7 +13219,7 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 124.46) (xy 450.85 127)
+			(xy 445.77 116.84) (xy 445.77 119.38)
 		)
 		(stroke
 			(width 0)
@@ -13178,7 +13239,7 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 92.71) (xy 461.518 92.71)
+			(xy 477.52 85.09) (xy 456.438 85.09)
 		)
 		(stroke
 			(width 0)
@@ -13188,7 +13249,7 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 156.21) (xy 486.41 156.21)
+			(xy 480.06 148.59) (xy 481.33 148.59)
 		)
 		(stroke
 			(width 0)
@@ -13238,7 +13299,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 106.68) (xy 439.42 106.68)
+			(xy 426.72 99.06) (xy 434.34 99.06)
 		)
 		(stroke
 			(width 0)
@@ -13258,7 +13319,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 118.11) (xy 375.92 118.11)
+			(xy 368.3 110.49) (xy 370.84 110.49)
 		)
 		(stroke
 			(width 0)
@@ -13278,7 +13339,7 @@
 	)
 	(wire
 		(pts
-			(xy 441.96 27.94) (xy 448.31 27.94)
+			(xy 436.88 20.32) (xy 443.23 20.32)
 		)
 		(stroke
 			(width 0)
@@ -13288,7 +13349,7 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 101.6) (xy 482.6 101.6)
+			(xy 474.98 93.98) (xy 477.52 93.98)
 		)
 		(stroke
 			(width 0)
@@ -13298,7 +13359,7 @@
 	)
 	(wire
 		(pts
-			(xy 488.95 107.95) (xy 488.95 113.03)
+			(xy 483.87 100.33) (xy 483.87 105.41)
 		)
 		(stroke
 			(width 0)
@@ -13328,7 +13389,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 52.07) (xy 472.44 57.15)
+			(xy 467.36 44.45) (xy 467.36 49.53)
 		)
 		(stroke
 			(width 0)
@@ -13358,7 +13419,7 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 116.84) (xy 482.6 111.76)
+			(xy 477.52 109.22) (xy 477.52 104.14)
 		)
 		(stroke
 			(width 0)
@@ -13368,7 +13429,7 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 35.56) (xy 492.76 35.56)
+			(xy 481.33 27.94) (xy 487.68 27.94)
 		)
 		(stroke
 			(width 0)
@@ -13398,7 +13459,7 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 35.56) (xy 499.11 35.56)
+			(xy 487.68 27.94) (xy 494.03 27.94)
 		)
 		(stroke
 			(width 0)
@@ -13428,7 +13489,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 46.99) (xy 472.44 52.07)
+			(xy 467.36 39.37) (xy 467.36 44.45)
 		)
 		(stroke
 			(width 0)
@@ -13438,7 +13499,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 101.6) (xy 439.42 106.68)
+			(xy 434.34 93.98) (xy 434.34 99.06)
 		)
 		(stroke
 			(width 0)
@@ -13488,7 +13549,7 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 46.99) (xy 524.51 52.07)
+			(xy 519.43 39.37) (xy 519.43 44.45)
 		)
 		(stroke
 			(width 0)
@@ -13518,7 +13579,7 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 125.73) (xy 509.27 125.73)
+			(xy 481.33 118.11) (xy 504.19 118.11)
 		)
 		(stroke
 			(width 0)
@@ -13548,7 +13609,7 @@
 	)
 	(wire
 		(pts
-			(xy 511.81 86.36) (xy 511.81 80.01)
+			(xy 506.73 78.74) (xy 506.73 72.39)
 		)
 		(stroke
 			(width 0)
@@ -13578,7 +13639,7 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 43.18) (xy 469.9 46.99)
+			(xy 464.82 35.56) (xy 464.82 39.37)
 		)
 		(stroke
 			(width 0)
@@ -13598,7 +13659,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 134.62) (xy 509.27 134.62)
+			(xy 462.28 127) (xy 504.19 127)
 		)
 		(stroke
 			(width 0)
@@ -13678,7 +13739,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 57.15) (xy 378.46 62.23)
+			(xy 373.38 49.53) (xy 373.38 54.61)
 		)
 		(stroke
 			(width 0)
@@ -13758,7 +13819,7 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 106.68) (xy 482.6 106.68)
+			(xy 474.98 99.06) (xy 477.52 99.06)
 		)
 		(stroke
 			(width 0)
@@ -13788,7 +13849,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 35.56) (xy 473.71 35.56)
+			(xy 462.28 27.94) (xy 468.63 27.94)
 		)
 		(stroke
 			(width 0)
@@ -13808,7 +13869,7 @@
 	)
 	(wire
 		(pts
-			(xy 448.31 27.94) (xy 454.66 27.94)
+			(xy 443.23 20.32) (xy 449.58 20.32)
 		)
 		(stroke
 			(width 0)
@@ -13868,7 +13929,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 52.07) (xy 378.46 57.15)
+			(xy 373.38 44.45) (xy 373.38 49.53)
 		)
 		(stroke
 			(width 0)
@@ -13898,7 +13959,7 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 27.94) (xy 461.01 27.94)
+			(xy 449.58 20.32) (xy 455.93 20.32)
 		)
 		(stroke
 			(width 0)
@@ -13908,13 +13969,23 @@
 	)
 	(wire
 		(pts
-			(xy 519.43 86.36) (xy 511.81 86.36)
+			(xy 514.35 78.74) (xy 506.73 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fc0bf2fe-9b4f-40b7-bde6-a02f49b3f5a8")
+	)
+	(wire
+		(pts
+			(xy 85.09 227.33) (xy 100.33 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3112f6-8fa2-49c2-b57e-56ca3d88e745")
 	)
 	(wire
 		(pts
@@ -13928,7 +13999,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 116.84) (xy 439.42 116.84)
+			(xy 431.8 109.22) (xy 434.34 109.22)
 		)
 		(stroke
 			(width 0)
@@ -13938,7 +14009,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 27.94) (xy 473.71 27.94)
+			(xy 462.28 20.32) (xy 468.63 20.32)
 		)
 		(stroke
 			(width 0)
@@ -13958,7 +14029,7 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 35.56) (xy 435.61 35.56)
+			(xy 424.18 27.94) (xy 430.53 27.94)
 		)
 		(stroke
 			(width 0)
@@ -14001,7 +14072,7 @@
 		(uuid 41f5c523-fb27-4e0e-9fdb-aec0993c2e2e)
 	)
 	(rectangle
-		(start 367.03 0)
+		(start 359.41 0)
 		(end 532.13 161.29)
 		(stroke
 			(width 0)
@@ -14037,7 +14108,7 @@
 		(uuid b6917d6b-00bd-4fd5-95f8-7ab49f483a96)
 	)
 	(label "GLB"
-		(at 436.88 116.84 180)
+		(at 431.8 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14097,7 +14168,7 @@
 		(uuid "11d5548f-5c5e-4e21-94a3-3302dc67cb8f")
 	)
 	(label "PHASB"
-		(at 453.898 86.36 180)
+		(at 448.818 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14237,7 +14308,7 @@
 		(uuid "3bae7ec9-4739-4447-9984-f869b6e2b3dc")
 	)
 	(label "SPA"
-		(at 407.67 146.05 270)
+		(at 402.59 138.43 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14257,7 +14328,7 @@
 		(uuid "49825da1-fb1b-4cc6-9c50-0f7bc3330fa9")
 	)
 	(label "SPB"
-		(at 448.31 127 180)
+		(at 443.23 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14307,7 +14378,7 @@
 		(uuid "57c98336-98eb-454c-997c-0811d96ab456")
 	)
 	(label "GHB"
-		(at 429.26 67.31 180)
+		(at 424.18 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14327,7 +14398,7 @@
 		(uuid "6752e3c6-6aa1-4fc8-9208-05b246169c45")
 	)
 	(label "GLA"
-		(at 373.38 118.11 180)
+		(at 368.3 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14457,7 +14528,7 @@
 		(uuid "a71d1672-766b-4e9f-869c-d13bebd243d7")
 	)
 	(label "GHA"
-		(at 375.92 67.31 180)
+		(at 370.84 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14577,7 +14648,7 @@
 		(uuid "b1f89599-2fd9-48ff-86c5-74316f997a7f")
 	)
 	(label "GHC"
-		(at 481.33 67.31 180)
+		(at 476.25 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14737,7 +14808,7 @@
 		(uuid "e6878e2b-3eeb-4b1b-aa8f-e8f19b22fc09")
 	)
 	(label "PHASA"
-		(at 414.782 87.63 180)
+		(at 409.702 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14747,7 +14818,7 @@
 		(uuid "ed752f89-a452-4d61-9b36-eae13d560c1a")
 	)
 	(label "GLC"
-		(at 488.95 120.65 0)
+		(at 483.87 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14797,7 +14868,7 @@
 		(uuid "f4f409a2-1bed-4aee-82cd-276e5e55e895")
 	)
 	(label "PHASC"
-		(at 502.92 86.36 180)
+		(at 497.84 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14815,13 +14886,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "003b8af6-425a-4163-bd0c-60ff1004e668")
-		(property "Reference" "#PWR?"
-			(at 118.11 16.51 0)
+		(property "Reference" "3.3V"
+			(at 118.11 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3V3"
@@ -14866,7 +14936,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "3.3V")
 					(unit 1)
 				)
 			)
@@ -14881,13 +14951,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00a8daa4-1b84-49a9-864d-8c288029a768")
-		(property "Reference" "#PWR?"
-			(at 36.83 113.03 0)
+		(property "Reference" "3.3V"
+			(at 36.83 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3V3"
@@ -14932,7 +15001,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "3.3V")
 					(unit 1)
 				)
 			)
@@ -15013,16 +15082,15 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a8719aa-44b3-4d91-ba64-b9ae089a7f4c")
-		(property "Reference" "#PWR?"
-			(at 347.98 87.63 0)
+		(property "Reference" "48V"
+			(at 347.98 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "24V"
+		(property "Value" "48V"
 			(at 347.98 83.82 0)
 			(effects
 				(font
@@ -15064,7 +15132,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "48V")
 					(unit 1)
 				)
 			)
@@ -15079,13 +15147,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b902fe5-d156-4b50-8d70-4a0a68dbaa4e")
-		(property "Reference" "#PWR?"
-			(at 39.37 87.63 0)
+		(property "Reference" "3.3V"
+			(at 39.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3V3"
@@ -15130,7 +15197,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "3.3V")
 					(unit 1)
 				)
 			)
@@ -15317,7 +15384,7 @@
 	)
 	(symbol
 		(lib_id "GRM32ER71J106KA12L:GRM32ER71J106KA12L")
-		(at 441.96 33.02 90)
+		(at 436.88 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15325,7 +15392,7 @@
 		(dnp no)
 		(uuid "11c8e500-f915-4fb0-9979-e6d2836a85ee")
 		(property "Reference" "C15"
-			(at 440.69 26.162 90)
+			(at 435.61 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15334,7 +15401,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 442.214 29.464 90)
+			(at 437.134 21.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15343,7 +15410,7 @@
 			)
 		)
 		(property "Footprint" "GRM32ER71J106KA12L:CAPC3225X270N"
-			(at 441.96 33.02 0)
+			(at 436.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15353,7 +15420,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C437568.pdf"
-			(at 441.96 33.02 0)
+			(at 436.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15362,7 +15429,7 @@
 			)
 		)
 		(property "Description" "63V 10uF X7R ±10% 1210 Ceramic Capacitors RoHS"
-			(at 441.96 33.02 0)
+			(at 436.88 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15387,7 +15454,7 @@
 	)
 	(symbol
 		(lib_id "GRM32ER71J106KA12L:GRM32ER71J106KA12L")
-		(at 467.36 33.02 90)
+		(at 462.28 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15395,7 +15462,7 @@
 		(dnp no)
 		(uuid "125cf40d-0198-46aa-9a67-1f0e7d60270c")
 		(property "Reference" "C23"
-			(at 466.09 26.162 90)
+			(at 461.01 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15404,7 +15471,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 467.614 29.464 90)
+			(at 462.534 21.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15413,7 +15480,7 @@
 			)
 		)
 		(property "Footprint" "GRM32ER71J106KA12L:CAPC3225X270N"
-			(at 467.36 33.02 0)
+			(at 462.28 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15423,7 +15490,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C437568.pdf"
-			(at 467.36 33.02 0)
+			(at 462.28 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15432,7 +15499,7 @@
 			)
 		)
 		(property "Description" "63V 10uF X7R ±10% 1210 Ceramic Capacitors RoHS"
-			(at 467.36 33.02 0)
+			(at 462.28 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15464,13 +15531,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14ea4b45-78fe-4b96-b55c-f862cfdabc00")
-		(property "Reference" "#PWR?"
-			(at 99.06 119.38 0)
+		(property "Reference" "3.3V"
+			(at 99.06 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3V3"
@@ -15515,7 +15581,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "3.3V")
 					(unit 1)
 				)
 			)
@@ -15785,13 +15851,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b536729-2c08-46e0-bc6f-9a50760242dd")
-		(property "Reference" "#PWR?"
-			(at 63.5 16.51 0)
+		(property "Reference" "3.3V"
+			(at 63.5 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3V3"
@@ -15836,7 +15901,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "3.3V")
 					(unit 1)
 				)
 			)
@@ -16023,7 +16088,7 @@
 	)
 	(symbol
 		(lib_id "GRM32ER71J106KA12L:GRM32ER71J106KA12L")
-		(at 448.31 33.02 90)
+		(at 443.23 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16031,7 +16096,7 @@
 		(dnp no)
 		(uuid "1d874af1-f62f-4264-9167-33fde4ea8652")
 		(property "Reference" "C16"
-			(at 447.04 26.162 90)
+			(at 441.96 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16040,7 +16105,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 448.564 29.464 90)
+			(at 443.484 21.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16049,7 +16114,7 @@
 			)
 		)
 		(property "Footprint" "GRM32ER71J106KA12L:CAPC3225X270N"
-			(at 448.31 33.02 0)
+			(at 443.23 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16059,7 +16124,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C437568.pdf"
-			(at 448.31 33.02 0)
+			(at 443.23 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16068,7 +16133,7 @@
 			)
 		)
 		(property "Description" "63V 10uF X7R ±10% 1210 Ceramic Capacitors RoHS"
-			(at 448.31 33.02 0)
+			(at 443.23 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16272,7 +16337,7 @@
 	)
 	(symbol
 		(lib_id "QFN8_BSC030N08NS5ATMA1_INF:BSC030N08NS5ATMA1")
-		(at 375.92 102.87 0)
+		(at 370.84 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16280,7 +16345,7 @@
 		(dnp no)
 		(uuid "25a03e4f-1a76-4325-abc7-be94dd0e2b00")
 		(property "Reference" "Q2"
-			(at 397.51 122.428 0)
+			(at 392.43 114.808 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16289,7 +16354,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 394.9701 121.92 90)
+			(at 389.8901 114.3 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16298,7 +16363,7 @@
 			)
 		)
 		(property "Footprint" "QFN8_BSC030N08NS5ATMA1_INF"
-			(at 375.92 102.87 0)
+			(at 370.84 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16308,7 +16373,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C501507.pdf"
-			(at 375.92 102.87 0)
+			(at 370.84 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16318,7 +16383,7 @@
 			)
 		)
 		(property "Description" "80V 100A 3mΩ@10V,50A 2.5W One N-channel TDSON-8(5x6) Single FETs, MOSFETs RoHS"
-			(at 375.92 102.87 0)
+			(at 370.84 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16368,13 +16433,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "277dfde5-dc35-46cb-a58d-19cddbd081ed")
-		(property "Reference" "#PWR?"
-			(at 278.13 199.39 0)
+		(property "Reference" "3.3V"
+			(at 278.13 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3V3"
@@ -16419,7 +16483,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "3.3V")
 					(unit 1)
 				)
 			)
@@ -16540,8 +16604,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Dash Motor-easyedapro:Ground-GND")
+		(at 90.17 195.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a3a259d-3755-4ee5-8640-8aae58085102")
+		(property "Reference" "#PWR02"
+			(at 90.17 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dash Motor-easyedapro:"
+			(at 90.17 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0cc10c8-0e03-4c28-8948-4b6293d2461f")
+		)
+		(instances
+			(project "Dash Motor"
+				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "GRM32ER71J106KA12L:GRM32ER71J106KA12L")
-		(at 422.91 33.02 90)
+		(at 417.83 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16549,7 +16678,7 @@
 		(dnp no)
 		(uuid "2fc83ac2-1282-4c5c-ba29-5edd0b9a0297")
 		(property "Reference" "C12"
-			(at 421.64 26.162 90)
+			(at 416.56 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16558,7 +16687,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 423.164 29.464 90)
+			(at 418.084 21.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16567,7 +16696,7 @@
 			)
 		)
 		(property "Footprint" "GRM32ER71J106KA12L:CAPC3225X270N"
-			(at 422.91 33.02 0)
+			(at 417.83 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16577,7 +16706,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C437568.pdf"
-			(at 422.91 33.02 0)
+			(at 417.83 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16586,7 +16715,7 @@
 			)
 		)
 		(property "Description" "63V 10uF X7R ±10% 1210 Ceramic Capacitors RoHS"
-			(at 422.91 33.02 0)
+			(at 417.83 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16610,6 +16739,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Dash Motor-easyedapro:Ground-GND")
+		(at 82.55 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fd42589-ed11-4444-8254-5842da4e79bc")
+		(property "Reference" "#PWR01"
+			(at 82.55 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dash Motor-easyedapro:"
+			(at 82.55 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62ba14c4-f8db-4a57-832b-7a35aaaa9615")
+		)
+		(instances
+			(project "Dash Motor"
+				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "Power-VCC_1")
 		(lib_id "Dash Motor-easyedapro:Power-VCC")
 		(at 224.79 16.51 0)
@@ -16619,16 +16813,15 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ffae681-b4dd-4c52-a286-d13dcb42b506")
-		(property "Reference" "#PWR?"
-			(at 224.79 16.51 0)
+		(property "Reference" "48V"
+			(at 224.79 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "24V"
+		(property "Value" "48V"
 			(at 224.79 12.7 0)
 			(effects
 				(font
@@ -16670,7 +16863,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "48V")
 					(unit 1)
 				)
 			)
@@ -16743,7 +16936,7 @@
 	)
 	(symbol
 		(lib_id "GRM32ER71J106KA12L:GRM32ER71J106KA12L")
-		(at 403.86 33.02 90)
+		(at 398.78 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16751,7 +16944,7 @@
 		(dnp no)
 		(uuid "32b824ad-cf52-4387-9cbe-04babba90f66")
 		(property "Reference" "C1"
-			(at 402.59 26.162 90)
+			(at 397.51 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16760,7 +16953,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 404.114 29.464 90)
+			(at 399.034 21.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16769,7 +16962,7 @@
 			)
 		)
 		(property "Footprint" "GRM32ER71J106KA12L:CAPC3225X270N"
-			(at 403.86 33.02 0)
+			(at 398.78 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16779,7 +16972,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C437568.pdf"
-			(at 403.86 33.02 0)
+			(at 398.78 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16788,7 +16981,7 @@
 			)
 		)
 		(property "Description" "63V 10uF X7R ±10% 1210 Ceramic Capacitors RoHS"
-			(at 403.86 33.02 0)
+			(at 398.78 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16885,13 +17078,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39040693-3206-4530-bf2a-fd01bed5716b")
-		(property "Reference" "#PWR?"
-			(at 26.67 46.99 0)
+		(property "Reference" "3.3V"
+			(at 26.67 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3V3"
@@ -16936,7 +17128,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "3.3V")
 					(unit 1)
 				)
 			)
@@ -16944,7 +17136,7 @@
 	)
 	(symbol
 		(lib_id "QFN8_BSC030N08NS5ATMA1_INF:BSC030N08NS5ATMA1")
-		(at 378.46 52.07 0)
+		(at 373.38 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16952,7 +17144,7 @@
 		(dnp no)
 		(uuid "397ba361-f556-4805-98e3-70d7d189bdd7")
 		(property "Reference" "Q?"
-			(at 400.05 71.628 0)
+			(at 394.97 64.008 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16961,7 +17153,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 397.5101 71.12 90)
+			(at 392.4301 63.5 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16970,7 +17162,7 @@
 			)
 		)
 		(property "Footprint" "QFN8_BSC030N08NS5ATMA1_INF"
-			(at 378.46 52.07 0)
+			(at 373.38 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16980,7 +17172,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C501507.pdf"
-			(at 378.46 52.07 0)
+			(at 373.38 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16990,7 +17182,7 @@
 			)
 		)
 		(property "Description" "80V 100A 3mΩ@10V,50A 2.5W One N-channel TDSON-8(5x6) Single FETs, MOSFETs RoHS"
-			(at 378.46 52.07 0)
+			(at 373.38 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17164,7 +17356,7 @@
 	)
 	(symbol
 		(lib_id "QFN8_BSC030N08NS5ATMA1_INF:BSC030N08NS5ATMA1")
-		(at 439.42 101.6 0)
+		(at 434.34 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17172,7 +17364,7 @@
 		(dnp no)
 		(uuid "3e281a99-2cde-4073-8fb9-3f1d215dd167")
 		(property "Reference" "Q4"
-			(at 461.01 121.158 0)
+			(at 455.93 113.538 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17181,7 +17373,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 458.4701 120.65 90)
+			(at 453.3901 113.03 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17190,7 +17382,7 @@
 			)
 		)
 		(property "Footprint" "QFN8_BSC030N08NS5ATMA1_INF"
-			(at 439.42 101.6 0)
+			(at 434.34 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17200,7 +17392,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C501507.pdf"
-			(at 439.42 101.6 0)
+			(at 434.34 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17210,7 +17402,7 @@
 			)
 		)
 		(property "Description" "80V 100A 3mΩ@10V,50A 2.5W One N-channel TDSON-8(5x6) Single FETs, MOSFETs RoHS"
-			(at 439.42 101.6 0)
+			(at 434.34 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17253,7 +17445,7 @@
 	)
 	(symbol
 		(lib_id "Dash Motor-easyedapro:PMR25HZPFV1L00")
-		(at 415.29 134.62 0)
+		(at 410.21 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17261,7 +17453,7 @@
 		(dnp no)
 		(uuid "3efcd8b7-bb88-407f-b0a1-a5224d677261")
 		(property "Reference" "R7"
-			(at 413.766 131.826 0)
+			(at 408.686 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17270,7 +17462,7 @@
 			)
 		)
 		(property "Value" "1mΩ"
-			(at 413.766 129.286 0)
+			(at 408.686 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17279,7 +17471,7 @@
 			)
 		)
 		(property "Footprint" "Dash Motor-easyedapro:R1210"
-			(at 415.29 134.62 0)
+			(at 410.21 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17288,7 +17480,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20201028/C509732_00E602A5AC169EB7992E30A642CBB2A3.pdf"
-			(at 415.29 134.62 0)
+			(at 410.21 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17297,7 +17489,7 @@
 			)
 		)
 		(property "Description" "Type:Current Sensing Resistors Resistance:1mΩ Tolerance:±1% Tolerance:±1% Power(Watts): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C"
-			(at 415.29 134.62 0)
+			(at 410.21 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17306,7 +17498,7 @@
 			)
 		)
 		(property "Manufacturer Part" "PMR25HZPFV1L00"
-			(at 415.29 134.62 0)
+			(at 410.21 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17315,7 +17507,7 @@
 			)
 		)
 		(property "Manufacturer" "ROHM(罗姆)"
-			(at 415.29 134.62 0)
+			(at 410.21 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17324,7 +17516,7 @@
 			)
 		)
 		(property "Supplier Part" "C509735"
-			(at 415.29 134.62 0)
+			(at 410.21 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17333,7 +17525,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 415.29 134.62 0)
+			(at 410.21 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17342,7 +17534,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1mΩ ±1% 1W"
-			(at 415.29 134.62 0)
+			(at 410.21 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17741,13 +17933,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45e0de71-1107-4b8e-80b5-e7e06f5d861c")
-		(property "Reference" "#PWR?"
-			(at 191.77 209.55 0)
+		(property "Reference" "5V"
+			(at 191.77 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "5V"
@@ -17792,7 +17983,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "5V")
 					(unit 1)
 				)
 			)
@@ -17869,8 +18060,74 @@
 		)
 	)
 	(symbol
+		(lib_name "Power-VCC_6")
+		(lib_id "Dash Motor-easyedapro:Power-VCC")
+		(at 92.71 229.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "489f682f-a35a-4356-962e-d54ac2821224")
+		(property "Reference" "48V01"
+			(at 92.71 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "48V"
+			(at 92.71 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Dash Motor-easyedapro:"
+			(at 92.71 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "026dd941-9afb-4ed1-bd76-db7ccc4a4358")
+		)
+		(instances
+			(project "Dash Motor"
+				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
+					(reference "48V01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Dash Motor-easyedapro:HOLE")
-		(at 426.72 87.63 0)
+		(at 421.64 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17878,7 +18135,7 @@
 		(dnp no)
 		(uuid "4b19a128-f488-4553-8914-d08b048b7035")
 		(property "Reference" "P$1"
-			(at 425.45 85.09 0)
+			(at 420.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17887,7 +18144,7 @@
 			)
 		)
 		(property "Value" "HOLE"
-			(at 425.45 92.71 0)
+			(at 420.37 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17897,7 +18154,7 @@
 			)
 		)
 		(property "Footprint" "Dash Motor-easyedapro:HOLEHOLE"
-			(at 426.72 87.63 0)
+			(at 421.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17906,7 +18163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 426.72 87.63 0)
+			(at 421.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17915,7 +18172,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 426.72 87.63 0)
+			(at 421.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18596,13 +18853,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "611a9fb1-4bc1-4bb6-a309-513a8294dd1e")
-		(property "Reference" "#PWR?"
-			(at 31.75 219.71 0)
+		(property "Reference" "3.3V"
+			(at 31.75 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3V3"
@@ -18647,7 +18903,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "3.3V")
 					(unit 1)
 				)
 			)
@@ -18769,7 +19025,7 @@
 	)
 	(symbol
 		(lib_id "Dash Motor-easyedapro:XY119A-5.0-3P")
-		(at 486.41 151.13 90)
+		(at 481.33 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18777,7 +19033,7 @@
 		(dnp no)
 		(uuid "68422fbc-41eb-4b20-b884-c8ed9dda5716")
 		(property "Reference" "CN3"
-			(at 492.76 151.13 90)
+			(at 487.68 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18786,7 +19042,7 @@
 			)
 		)
 		(property "Value" "XY119A-5.0-3P"
-			(at 492.76 153.67 90)
+			(at 487.68 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18795,7 +19051,7 @@
 			)
 		)
 		(property "Footprint" "Dash Motor-easyedapro:CONN-TH_XY119A-5.0-3P"
-			(at 486.41 151.13 0)
+			(at 481.33 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18804,7 +19060,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/XY119A-5.0-3P/1313001.html"
-			(at 486.41 151.13 0)
+			(at 481.33 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18813,7 +19069,7 @@
 			)
 		)
 		(property "Description" "Number of Positions or Pins:1x3P Pitch:5mm Color:Gray Mounting Type:- Number of Pins:3P Number of PINs Per Row:3 Number of Rows:1 Current Rating:5A Voltage Rating (Max):300V Wire Gauge - AWG:18~20 Wire Gauge - mm2:1.5 Operating Temperature:- Operating Tem"
-			(at 486.41 151.13 0)
+			(at 481.33 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18822,7 +19078,7 @@
 			)
 		)
 		(property "Manufacturer Part" "XY119A-5.0-3P"
-			(at 486.41 151.13 0)
+			(at 481.33 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18831,7 +19087,7 @@
 			)
 		)
 		(property "Manufacturer" "XINLAIYA(新莱亚)"
-			(at 486.41 151.13 0)
+			(at 481.33 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18840,7 +19096,7 @@
 			)
 		)
 		(property "Supplier Part" "C1222436"
-			(at 486.41 151.13 0)
+			(at 481.33 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18849,7 +19105,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 486.41 151.13 0)
+			(at 481.33 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18858,7 +19114,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1x3P 5mm 每排P数:3 排数:1"
-			(at 486.41 151.13 0)
+			(at 481.33 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18886,7 +19142,7 @@
 	)
 	(symbol
 		(lib_id "GRM32ER71J106KA12L:GRM32ER71J106KA12L")
-		(at 473.71 33.02 90)
+		(at 468.63 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18894,7 +19150,7 @@
 		(dnp no)
 		(uuid "68b88918-1921-4d82-a442-bbca0fbe57f6")
 		(property "Reference" "C24"
-			(at 472.44 26.162 90)
+			(at 467.36 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18903,7 +19159,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 473.964 29.464 90)
+			(at 468.884 21.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18912,7 +19168,7 @@
 			)
 		)
 		(property "Footprint" "GRM32ER71J106KA12L:CAPC3225X270N"
-			(at 473.71 33.02 0)
+			(at 468.63 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18922,7 +19178,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C437568.pdf"
-			(at 473.71 33.02 0)
+			(at 468.63 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18931,7 +19187,7 @@
 			)
 		)
 		(property "Description" "63V 10uF X7R ±10% 1210 Ceramic Capacitors RoHS"
-			(at 473.71 33.02 0)
+			(at 468.63 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18956,7 +19212,7 @@
 	)
 	(symbol
 		(lib_id "GRM32ER71J106KA12L:GRM32ER71J106KA12L")
-		(at 499.11 33.02 90)
+		(at 494.03 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18964,7 +19220,7 @@
 		(dnp no)
 		(uuid "69486db1-8878-4982-8a33-36ce6fc7780b")
 		(property "Reference" "C29"
-			(at 497.84 26.162 90)
+			(at 492.76 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18973,7 +19229,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 499.364 29.464 90)
+			(at 494.284 21.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18982,7 +19238,7 @@
 			)
 		)
 		(property "Footprint" "GRM32ER71J106KA12L:CAPC3225X270N"
-			(at 499.11 33.02 0)
+			(at 494.03 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18992,7 +19248,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C437568.pdf"
-			(at 499.11 33.02 0)
+			(at 494.03 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19001,7 +19257,7 @@
 			)
 		)
 		(property "Description" "63V 10uF X7R ±10% 1210 Ceramic Capacitors RoHS"
-			(at 499.11 33.02 0)
+			(at 494.03 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19026,7 +19282,7 @@
 	)
 	(symbol
 		(lib_id "GRM32ER71J106KA12L:GRM32ER71J106KA12L")
-		(at 429.26 33.02 90)
+		(at 424.18 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19034,7 +19290,7 @@
 		(dnp no)
 		(uuid "6c01786a-769a-4aea-b71d-85cfe85ab7da")
 		(property "Reference" "C13"
-			(at 427.99 26.162 90)
+			(at 422.91 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19043,7 +19299,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 429.514 29.464 90)
+			(at 424.434 21.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19052,7 +19308,7 @@
 			)
 		)
 		(property "Footprint" "GRM32ER71J106KA12L:CAPC3225X270N"
-			(at 429.26 33.02 0)
+			(at 424.18 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19062,7 +19318,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C437568.pdf"
-			(at 429.26 33.02 0)
+			(at 424.18 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19071,7 +19327,7 @@
 			)
 		)
 		(property "Description" "63V 10uF X7R ±10% 1210 Ceramic Capacitors RoHS"
-			(at 429.26 33.02 0)
+			(at 424.18 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19275,7 +19531,7 @@
 	)
 	(symbol
 		(lib_id "GRM32ER71J106KA12L:GRM32ER71J106KA12L")
-		(at 416.56 33.02 90)
+		(at 411.48 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19283,7 +19539,7 @@
 		(dnp no)
 		(uuid "75a3674a-109a-4890-956e-fd1f92d01cf8")
 		(property "Reference" "C11"
-			(at 415.29 26.162 90)
+			(at 410.21 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19292,7 +19548,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 416.814 29.464 90)
+			(at 411.734 21.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19301,7 +19557,7 @@
 			)
 		)
 		(property "Footprint" "GRM32ER71J106KA12L:CAPC3225X270N"
-			(at 416.56 33.02 0)
+			(at 411.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19311,7 +19567,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C437568.pdf"
-			(at 416.56 33.02 0)
+			(at 411.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19320,7 +19576,7 @@
 			)
 		)
 		(property "Description" "63V 10uF X7R ±10% 1210 Ceramic Capacitors RoHS"
-			(at 416.56 33.02 0)
+			(at 411.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19525,7 +19781,7 @@
 	)
 	(symbol
 		(lib_id "GRM32ER71J106KA12L:GRM32ER71J106KA12L")
-		(at 454.66 33.02 90)
+		(at 449.58 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19533,7 +19789,7 @@
 		(dnp no)
 		(uuid "78ab4ba3-b03d-4b2d-a1f6-055dcfcadb47")
 		(property "Reference" "C21"
-			(at 453.39 26.162 90)
+			(at 448.31 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19542,7 +19798,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 454.914 29.464 90)
+			(at 449.834 21.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19551,7 +19807,7 @@
 			)
 		)
 		(property "Footprint" "GRM32ER71J106KA12L:CAPC3225X270N"
-			(at 454.66 33.02 0)
+			(at 449.58 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19561,7 +19817,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C437568.pdf"
-			(at 454.66 33.02 0)
+			(at 449.58 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19570,7 +19826,7 @@
 			)
 		)
 		(property "Description" "63V 10uF X7R ±10% 1210 Ceramic Capacitors RoHS"
-			(at 454.66 33.02 0)
+			(at 449.58 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19602,13 +19858,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a7cb49a-c136-4d54-b1ea-29e814704464")
-		(property "Reference" "#PWR?"
-			(at 340.36 110.49 0)
+		(property "Reference" "3.3V"
+			(at 340.36 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3V3"
@@ -19653,7 +19908,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "3.3V")
 					(unit 1)
 				)
 			)
@@ -20006,13 +20261,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f9d8efc-544f-4ec0-8ac1-a69ae3e6c1a4")
-		(property "Reference" "#PWR?"
-			(at 190.5 156.21 0)
+		(property "Reference" "3.3V"
+			(at 190.5 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3V3"
@@ -20057,7 +20311,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "3.3V")
 					(unit 1)
 				)
 			)
@@ -20497,6 +20751,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Changzhou Amass Elec XT30(2+2)PB-M.G.B:XT30(2+2)PB-M.G.B")
+		(at 105.41 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bbd3472-0509-44ee-aaf1-2114a5439309")
+		(property "Reference" "CN3(OUT)"
+			(at 109.22 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30(2+2)PB-M.G.B"
+			(at 109.22 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Footprints:CONN-TH_XT30PB-M"
+			(at 105.156 234.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.426 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XT30(2+2)PB-M.G.B"
+			(at 105.156 217.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 105.156 214.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 104.902 215.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 105.41 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 104.648 211.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6f219327-9278-475b-b377-82aa1dac88fd")
+		)
+		(pin "3"
+			(uuid "40cb1fca-7c8c-4860-932d-1009f4da1ec9")
+		)
+		(pin "1"
+			(uuid "5f42ab73-9bb2-47f2-a645-aa38da44a748")
+		)
+		(pin "2"
+			(uuid "daefc45a-3609-4764-afa8-1280091237e0")
+		)
+		(instances
+			(project "Dash Motor"
+				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
+					(reference "CN3(OUT)")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Dash Motor-easyedapro:Ground-GND")
 		(at 217.17 26.67 0)
 		(unit 1)
@@ -20570,13 +20945,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ea7dedd-f6b5-4fec-9726-d4602848b748")
-		(property "Reference" "#PWR?"
-			(at 203.2 212.09 0)
+		(property "Reference" "3.3V"
+			(at 199.39 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3V3"
@@ -20621,7 +20995,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "3.3V")
 					(unit 1)
 				)
 			)
@@ -20629,7 +21003,7 @@
 	)
 	(symbol
 		(lib_id "GRM32ER71J106KA12L:GRM32ER71J106KA12L")
-		(at 435.61 33.02 90)
+		(at 430.53 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20637,7 +21011,7 @@
 		(dnp no)
 		(uuid "8fa6d80f-ed24-41e8-ad9f-b117a9288440")
 		(property "Reference" "C14"
-			(at 434.34 26.162 90)
+			(at 429.26 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20646,7 +21020,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 435.864 29.464 90)
+			(at 430.784 21.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20655,7 +21029,7 @@
 			)
 		)
 		(property "Footprint" "GRM32ER71J106KA12L:CAPC3225X270N"
-			(at 435.61 33.02 0)
+			(at 430.53 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20665,7 +21039,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C437568.pdf"
-			(at 435.61 33.02 0)
+			(at 430.53 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20674,7 +21048,7 @@
 			)
 		)
 		(property "Description" "63V 10uF X7R ±10% 1210 Ceramic Capacitors RoHS"
-			(at 435.61 33.02 0)
+			(at 430.53 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20813,7 +21187,7 @@
 	)
 	(symbol
 		(lib_id "Dash Motor-easyedapro:HOLE")
-		(at 525.272 86.36 0)
+		(at 520.192 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20821,7 +21195,7 @@
 		(dnp no)
 		(uuid "9344fb25-9ffe-4330-9651-9cc7761862d6")
 		(property "Reference" "P$3"
-			(at 524.002 83.82 0)
+			(at 518.922 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20830,7 +21204,7 @@
 			)
 		)
 		(property "Value" "HOLE"
-			(at 524.002 91.44 0)
+			(at 518.922 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20840,7 +21214,7 @@
 			)
 		)
 		(property "Footprint" "Dash Motor-easyedapro:HOLEHOLE"
-			(at 525.272 86.36 0)
+			(at 520.192 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20849,7 +21223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 525.272 86.36 0)
+			(at 520.192 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20858,7 +21232,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 525.272 86.36 0)
+			(at 520.192 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20945,7 +21319,7 @@
 	)
 	(symbol
 		(lib_id "Dash Motor-easyedapro:PMR25HZPFV1L00")
-		(at 467.36 129.54 270)
+		(at 462.28 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20953,7 +21327,7 @@
 		(dnp no)
 		(uuid "99beb599-20f4-4f97-8f1a-4e34c4f179b5")
 		(property "Reference" "R6"
-			(at 464.82 129.54 90)
+			(at 459.74 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20962,7 +21336,7 @@
 			)
 		)
 		(property "Value" "1mΩ"
-			(at 464.82 127 90)
+			(at 459.74 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20971,7 +21345,7 @@
 			)
 		)
 		(property "Footprint" "Dash Motor-easyedapro:R1210"
-			(at 467.36 129.54 0)
+			(at 462.28 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20980,7 +21354,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20201028/C509732_00E602A5AC169EB7992E30A642CBB2A3.pdf"
-			(at 467.36 129.54 0)
+			(at 462.28 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20989,7 +21363,7 @@
 			)
 		)
 		(property "Description" "Type:Current Sensing Resistors Resistance:1mΩ Tolerance:±1% Tolerance:±1% Power(Watts): Temperature Coefficient:±100ppm/°C Temperature Coefficient:±100ppm/°C"
-			(at 467.36 129.54 0)
+			(at 462.28 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20998,7 +21372,7 @@
 			)
 		)
 		(property "Manufacturer Part" "PMR25HZPFV1L00"
-			(at 467.36 129.54 0)
+			(at 462.28 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21007,7 +21381,7 @@
 			)
 		)
 		(property "Manufacturer" "ROHM(罗姆)"
-			(at 467.36 129.54 0)
+			(at 462.28 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21016,7 +21390,7 @@
 			)
 		)
 		(property "Supplier Part" "C509735"
-			(at 467.36 129.54 0)
+			(at 462.28 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21025,7 +21399,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 467.36 129.54 0)
+			(at 462.28 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21034,7 +21408,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1mΩ ±1% 1W"
-			(at 467.36 129.54 0)
+			(at 462.28 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21286,6 +21660,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Dash Motor-easyedapro:Power-VCC")
+		(at 82.55 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fe68766-6e57-4d55-9b6d-68c43ba4ca0e")
+		(property "Reference" "3.3V"
+			(at 82.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 82.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Dash Motor-easyedapro:"
+			(at 82.55 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b4da229-fcdc-42ad-8545-a8459e8fb715")
+		)
+		(instances
+			(project "Dash Motor"
+				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
+					(reference "3.3V")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Dash Motor-easyedapro:RC0402FR-0754K9L")
 		(at 194.31 45.72 90)
 		(unit 1)
@@ -21394,6 +21833,71 @@
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dash Motor-easyedapro:Power-VCC")
+		(at 85.09 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3266692-b008-49c6-a752-899d95bd5f29")
+		(property "Reference" "3.3V01"
+			(at 85.09 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 85.09 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Dash Motor-easyedapro:"
+			(at 85.09 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "871ea6d2-de87-4d60-86ce-8338f68dfa2e")
+		)
+		(instances
+			(project "Dash Motor"
+				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
+					(reference "3.3V01")
 					(unit 1)
 				)
 			)
@@ -21532,7 +22036,7 @@
 	)
 	(symbol
 		(lib_id "Dash Motor-easyedapro:Ground-GND")
-		(at 509.27 134.62 0)
+		(at 504.19 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21540,7 +22044,7 @@
 		(dnp no)
 		(uuid "a9ec90d5-76f2-4b36-9311-316b297d0246")
 		(property "Reference" "#PWR?"
-			(at 509.27 134.62 0)
+			(at 504.19 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21549,7 +22053,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 509.27 140.97 0)
+			(at 504.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21557,7 +22061,7 @@
 			)
 		)
 		(property "Footprint" "Dash Motor-easyedapro:"
-			(at 509.27 134.62 0)
+			(at 504.19 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21566,7 +22070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 509.27 134.62 0)
+			(at 504.19 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21575,7 +22079,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 509.27 134.62 0)
+			(at 504.19 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21605,16 +22109,15 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa574ee7-91ad-4f0e-9132-b99eea8470d2")
-		(property "Reference" "#PWR?"
-			(at 19.05 49.53 0)
+		(property "Reference" "48V"
+			(at 19.05 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "24V"
+		(property "Value" "48V"
 			(at 19.05 45.72 0)
 			(effects
 				(font
@@ -21656,7 +22159,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "48V")
 					(unit 1)
 				)
 			)
@@ -21664,7 +22167,7 @@
 	)
 	(symbol
 		(lib_id "Dash Motor-easyedapro:Ground-GND")
-		(at 403.86 35.56 0)
+		(at 398.78 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21672,7 +22175,7 @@
 		(dnp no)
 		(uuid "aa68bd03-5a75-4b4a-a8a1-d8c38289a561")
 		(property "Reference" "#PWR?"
-			(at 403.86 35.56 0)
+			(at 398.78 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21681,7 +22184,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 403.86 41.91 0)
+			(at 398.78 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21689,7 +22192,7 @@
 			)
 		)
 		(property "Footprint" "Dash Motor-easyedapro:"
-			(at 403.86 35.56 0)
+			(at 398.78 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21698,7 +22201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 403.86 35.56 0)
+			(at 398.78 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21707,7 +22210,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 403.86 35.56 0)
+			(at 398.78 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21842,8 +22345,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Dash Motor-easyedapro:Ground-GND")
+		(at 92.71 222.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae1b1b12-b22f-4911-ad9f-606d18fb42a1")
+		(property "Reference" "#PWR03"
+			(at 92.71 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dash Motor-easyedapro:"
+			(at 92.71 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fad69b4a-bafa-4ff0-b14a-48e288410d57")
+		)
+		(instances
+			(project "Dash Motor"
+				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "QFN8_BSC030N08NS5ATMA1_INF:BSC030N08NS5ATMA1")
-		(at 488.95 102.87 0)
+		(at 483.87 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21851,7 +22419,7 @@
 		(dnp no)
 		(uuid "afe5b977-a4ad-4be4-9626-f408673d7291")
 		(property "Reference" "Q6"
-			(at 510.54 122.428 0)
+			(at 505.46 114.808 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21860,7 +22428,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 508.0001 121.92 90)
+			(at 502.9201 114.3 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21869,7 +22437,7 @@
 			)
 		)
 		(property "Footprint" "QFN8_BSC030N08NS5ATMA1_INF"
-			(at 488.95 102.87 0)
+			(at 483.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21879,7 +22447,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C501507.pdf"
-			(at 488.95 102.87 0)
+			(at 483.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21889,7 +22457,7 @@
 			)
 		)
 		(property "Description" "80V 100A 3mΩ@10V,50A 2.5W One N-channel TDSON-8(5x6) Single FETs, MOSFETs RoHS"
-			(at 488.95 102.87 0)
+			(at 483.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22475,13 +23043,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bea0e256-dfb8-43a2-9914-ea65197bf8e6")
-		(property "Reference" "#PWR?"
-			(at 55.88 104.14 0)
+		(property "Reference" "3.3V"
+			(at 55.88 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3V3"
@@ -22526,7 +23093,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "3.3V")
 					(unit 1)
 				)
 			)
@@ -22648,7 +23215,7 @@
 	)
 	(symbol
 		(lib_id "QFN8_BSC030N08NS5ATMA1_INF:BSC030N08NS5ATMA1")
-		(at 431.8 52.07 0)
+		(at 426.72 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22656,7 +23223,7 @@
 		(dnp no)
 		(uuid "c0027e69-070a-408d-a782-f659f4c5b27a")
 		(property "Reference" "Q3"
-			(at 453.39 71.628 0)
+			(at 448.31 64.008 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22665,7 +23232,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 450.8501 71.12 90)
+			(at 445.7701 63.5 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22674,7 +23241,7 @@
 			)
 		)
 		(property "Footprint" "QFN8_BSC030N08NS5ATMA1_INF"
-			(at 431.8 52.07 0)
+			(at 426.72 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22684,7 +23251,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C501507.pdf"
-			(at 431.8 52.07 0)
+			(at 426.72 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22694,7 +23261,7 @@
 			)
 		)
 		(property "Description" "80V 100A 3mΩ@10V,50A 2.5W One N-channel TDSON-8(5x6) Single FETs, MOSFETs RoHS"
-			(at 431.8 52.07 0)
+			(at 426.72 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22737,7 +23304,7 @@
 	)
 	(symbol
 		(lib_id "Dash Motor-easyedapro:HOLE")
-		(at 471.17 86.36 0)
+		(at 466.09 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22745,7 +23312,7 @@
 		(dnp no)
 		(uuid "c0b6d1a8-f04e-4bfb-95bb-9c118dd4b64d")
 		(property "Reference" "P$2"
-			(at 469.9 83.82 0)
+			(at 464.82 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22754,7 +23321,7 @@
 			)
 		)
 		(property "Value" "HOLE"
-			(at 469.9 91.44 0)
+			(at 464.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22764,7 +23331,7 @@
 			)
 		)
 		(property "Footprint" "Dash Motor-easyedapro:HOLEHOLE"
-			(at 471.17 86.36 0)
+			(at 466.09 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22773,7 +23340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 471.17 86.36 0)
+			(at 466.09 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22782,7 +23349,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 471.17 86.36 0)
+			(at 466.09 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22911,6 +23478,71 @@
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dash Motor-easyedapro:Ground-GND")
+		(at 85.09 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c16f2fe5-4106-4bd4-8de0-221260cf3086")
+		(property "Reference" "#PWR04"
+			(at 85.09 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dash Motor-easyedapro:"
+			(at 85.09 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "853d7116-f422-4510-bc0e-f841afc76178")
+		)
+		(instances
+			(project "Dash Motor"
+				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -23096,35 +23728,35 @@
 		)
 	)
 	(symbol
-		(lib_name "Power-VCC_5")
-		(lib_id "Dash Motor-easyedapro:Power-VCC")
-		(at 469.9 43.18 0)
+		(lib_id "Changzhou Amass Elec XT30(2+2)PB-M.G.B:XT30(2+2)PB-M.G.B")
+		(at 102.87 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ca2e3da4-e2a3-47fb-bd1a-fa96dc5ba8b8")
-		(property "Reference" "#PWR?"
-			(at 469.9 43.18 0)
+		(fields_autoplaced yes)
+		(uuid "c6a33860-f3f5-498b-b4e5-aa8934317244")
+		(property "Reference" "CN2(IN)"
+			(at 106.68 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "24V"
-			(at 469.9 39.37 0)
+		(property "Value" "XT30(2+2)PB-M.G.B"
+			(at 106.68 200.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Dash Motor-easyedapro:"
-			(at 469.9 43.18 0)
+		(property "Footprint" "Footprints:CONN-TH_XT30PB-M"
+			(at 102.616 207.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23133,7 +23765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 469.9 43.18 0)
+			(at 103.886 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23142,7 +23774,127 @@
 			)
 		)
 		(property "Description" ""
-			(at 469.9 43.18 0)
+			(at 102.87 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XT30(2+2)PB-M.G.B"
+			(at 102.616 191.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 102.616 187.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 102.362 188.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 102.87 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" ""
+			(at 102.108 184.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "bf151583-8731-44a7-8925-102eeb6df892")
+		)
+		(pin "3"
+			(uuid "e7b7d7d4-4344-44a2-92d8-b93facbcd69c")
+		)
+		(pin "1"
+			(uuid "cc166653-646c-4d84-b13b-316f69925481")
+		)
+		(pin "2"
+			(uuid "ce4fbdd3-cb55-447e-9d13-ebf5cd78281a")
+		)
+		(instances
+			(project ""
+				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
+					(reference "CN2(IN)")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Power-VCC_5")
+		(lib_id "Dash Motor-easyedapro:Power-VCC")
+		(at 464.82 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca2e3da4-e2a3-47fb-bd1a-fa96dc5ba8b8")
+		(property "Reference" "48V"
+			(at 464.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "48V"
+			(at 464.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Dash Motor-easyedapro:"
+			(at 464.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 464.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 464.82 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23156,7 +23908,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "48V")
 					(unit 1)
 				)
 			)
@@ -23164,7 +23916,7 @@
 	)
 	(symbol
 		(lib_id "GRM32ER71J106KA12L:GRM32ER71J106KA12L")
-		(at 410.21 33.02 90)
+		(at 405.13 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23172,7 +23924,7 @@
 		(dnp no)
 		(uuid "ce93e385-bcff-42dc-9e04-fa613e73750e")
 		(property "Reference" "C8"
-			(at 408.94 26.162 90)
+			(at 403.86 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23181,7 +23933,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 410.464 29.464 90)
+			(at 405.384 21.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23190,7 +23942,7 @@
 			)
 		)
 		(property "Footprint" "GRM32ER71J106KA12L:CAPC3225X270N"
-			(at 410.21 33.02 0)
+			(at 405.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23200,7 +23952,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C437568.pdf"
-			(at 410.21 33.02 0)
+			(at 405.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23209,7 +23961,7 @@
 			)
 		)
 		(property "Description" "63V 10uF X7R ±10% 1210 Ceramic Capacitors RoHS"
-			(at 410.21 33.02 0)
+			(at 405.13 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23242,13 +23994,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf70539c-c164-4411-bec2-ecbfaa7c7268")
-		(property "Reference" "#PWR?"
-			(at 224.79 135.89 0)
+		(property "Reference" "5V"
+			(at 224.79 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "5V"
@@ -23293,7 +24044,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "5V")
 					(unit 1)
 				)
 			)
@@ -23366,7 +24117,7 @@
 	)
 	(symbol
 		(lib_id "GRM32ER71J106KA12L:GRM32ER71J106KA12L")
-		(at 492.76 33.02 90)
+		(at 487.68 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23374,7 +24125,7 @@
 		(dnp no)
 		(uuid "d34b7702-1f24-4bb0-a883-8dd2dfecc2df")
 		(property "Reference" "C28"
-			(at 491.49 26.162 90)
+			(at 486.41 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23383,7 +24134,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 493.014 29.464 90)
+			(at 487.934 21.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23392,7 +24143,7 @@
 			)
 		)
 		(property "Footprint" "GRM32ER71J106KA12L:CAPC3225X270N"
-			(at 492.76 33.02 0)
+			(at 487.68 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23402,7 +24153,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C437568.pdf"
-			(at 492.76 33.02 0)
+			(at 487.68 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23411,7 +24162,7 @@
 			)
 		)
 		(property "Description" "63V 10uF X7R ±10% 1210 Ceramic Capacitors RoHS"
-			(at 492.76 33.02 0)
+			(at 487.68 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23965,26 +24716,25 @@
 		)
 	)
 	(symbol
-		(lib_name "Power-VCC_4")
+		(lib_name "Power-VCC_6")
 		(lib_id "Dash Motor-easyedapro:Power-VCC")
-		(at 403.86 21.59 0)
+		(at 90.17 203.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e2495899-a414-40db-9d20-9792df06972b")
-		(property "Reference" "#PWR?"
-			(at 403.86 21.59 0)
+		(uuid "e2451caa-a869-4f11-aec6-2bcd6e45bc6c")
+		(property "Reference" "48V"
+			(at 90.17 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "24V"
-			(at 403.86 17.78 0)
+		(property "Value" "48V"
+			(at 90.17 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23993,7 +24743,7 @@
 			)
 		)
 		(property "Footprint" "Dash Motor-easyedapro:"
-			(at 403.86 21.59 0)
+			(at 90.17 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24002,7 +24752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 403.86 21.59 0)
+			(at 90.17 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24011,7 +24761,73 @@
 			)
 		)
 		(property "Description" ""
-			(at 403.86 21.59 0)
+			(at 90.17 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4906dccd-e19a-4baf-8ab9-f5d6bfa94b77")
+		)
+		(instances
+			(project "Dash Motor"
+				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
+					(reference "48V")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Power-VCC_4")
+		(lib_id "Dash Motor-easyedapro:Power-VCC")
+		(at 398.78 13.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2495899-a414-40db-9d20-9792df06972b")
+		(property "Reference" "48V"
+			(at 398.78 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "48V"
+			(at 398.78 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Dash Motor-easyedapro:"
+			(at 398.78 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 398.78 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24025,127 +24841,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Dash Motor-easyedapro:XT30PW-M")
-		(at 100.33 215.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e386c30d-2f81-4d0e-b897-e8e635b05cff")
-		(property "Reference" "CN2"
-			(at 106.68 214.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "XT30PW-M30.G.Y"
-			(at 106.68 217.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Dash Motor-easyedapro:CONN-TH_XT30PW-M"
-			(at 100.33 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/XT30PW-M30.G.Y/426930.html"
-			(at 100.33 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power:- Output:- Input:- Size:- Interface:- Type:- Colour:- MaximumCurrent:- Type:Aviation model plug RatedVoltage:DC 500V Type1:- NumberOfUSBHoles:- InterfaceType:Male MetalMaterial:- InsulationMaterial:- RatedCurrent:15A RecommendedWireGauge:16/18/20AWG"
-			(at 100.33 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "XT30PW-M30.G.Y"
-			(at 100.33 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "AMASS(艾迈斯)"
-			(at 100.33 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C431092"
-			(at 100.33 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 100.33 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Name" "AMASS(艾迈斯)航模插头 卧式弯脚 XT30PW-M公头"
-			(at 100.33 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "df7d6950-95e2-4e94-a6f7-98799e37202f")
-		)
-		(pin "1"
-			(uuid "c4697b1d-235e-43ae-8292-434f03527c87")
-		)
-		(pin "3"
-			(uuid "70a4e32c-05a0-4792-bedc-719bf896f3f9")
-		)
-		(pin "4"
-			(uuid "7d85df76-1d86-444e-a831-1f6450113c2d")
-		)
-		(instances
-			(project ""
-				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "CN2")
+					(reference "48V")
 					(unit 1)
 				)
 			)
@@ -24632,7 +25328,7 @@
 	)
 	(symbol
 		(lib_id "GRM32ER71J106KA12L:GRM32ER71J106KA12L")
-		(at 486.41 33.02 90)
+		(at 481.33 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24640,7 +25336,7 @@
 		(dnp no)
 		(uuid "e7e308de-3afe-4e5d-acca-fa89fc542032")
 		(property "Reference" "C26"
-			(at 485.14 26.162 90)
+			(at 480.06 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24649,7 +25345,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 486.664 29.464 90)
+			(at 481.584 21.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24658,7 +25354,7 @@
 			)
 		)
 		(property "Footprint" "GRM32ER71J106KA12L:CAPC3225X270N"
-			(at 486.41 33.02 0)
+			(at 481.33 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24668,7 +25364,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C437568.pdf"
-			(at 486.41 33.02 0)
+			(at 481.33 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24677,7 +25373,7 @@
 			)
 		)
 		(property "Description" "63V 10uF X7R ±10% 1210 Ceramic Capacitors RoHS"
-			(at 486.41 33.02 0)
+			(at 481.33 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24709,13 +25405,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecae6928-4b82-4335-be33-1e3831bfdcb5")
-		(property "Reference" "#PWR?"
-			(at 299.72 7.62 0)
+		(property "Reference" "3.3V"
+			(at 299.72 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "3V3"
@@ -24760,7 +25455,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "3.3V")
 					(unit 1)
 				)
 			)
@@ -24776,13 +25471,12 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed5807be-023a-4be5-bff7-eadc6f0209ad")
-		(property "Reference" "#PWR?"
-			(at 189.23 34.29 0)
+		(property "Reference" "5V"
+			(at 189.23 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "5V"
@@ -24827,7 +25521,7 @@
 		(instances
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
+					(reference "5V")
 					(unit 1)
 				)
 			)
@@ -25133,71 +25827,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Dash Motor-easyedapro:Ground-GND")
-		(at 83.82 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1f27646-17f5-4590-88db-4db4e1121046")
-		(property "Reference" "#PWR?"
-			(at 83.82 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Dash Motor-easyedapro:"
-			(at 83.82 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9c3e2a9-5d09-4e2d-a79e-73c6a0fc882d")
-		)
-		(instances
-			(project ""
-				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Dash Motor-easyedapro:MCP2542FD-E/MF")
 		(at 222.25 204.47 0)
 		(unit 1)
@@ -25327,73 +25956,6 @@
 			(project ""
 				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Power-VCC_6")
-		(lib_id "Dash Motor-easyedapro:Power-VCC")
-		(at 83.82 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5c821db-cb76-43ac-80a2-1555cd0e1cb1")
-		(property "Reference" "#PWR?"
-			(at 83.82 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "24V"
-			(at 83.82 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Dash Motor-easyedapro:"
-			(at 83.82 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae8f8f9c-3bcb-4e75-b28d-cc2ea387b7d8")
-		)
-		(instances
-			(project ""
-				(path "/20a8bb8d-b9b1-4b4e-824c-bb442b73bed0"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -25827,7 +26389,7 @@
 	)
 	(symbol
 		(lib_id "GRM32ER71J106KA12L:GRM32ER71J106KA12L")
-		(at 461.01 33.02 90)
+		(at 455.93 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25835,7 +26397,7 @@
 		(dnp no)
 		(uuid "f7b60169-5d80-47f7-80b9-18998d8d0658")
 		(property "Reference" "C22"
-			(at 459.74 26.162 90)
+			(at 454.66 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25844,7 +26406,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 461.264 29.464 90)
+			(at 456.184 21.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25853,7 +26415,7 @@
 			)
 		)
 		(property "Footprint" "GRM32ER71J106KA12L:CAPC3225X270N"
-			(at 461.01 33.02 0)
+			(at 455.93 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25863,7 +26425,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C437568.pdf"
-			(at 461.01 33.02 0)
+			(at 455.93 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25872,7 +26434,7 @@
 			)
 		)
 		(property "Description" "63V 10uF X7R ±10% 1210 Ceramic Capacitors RoHS"
-			(at 461.01 33.02 0)
+			(at 455.93 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25967,7 +26529,7 @@
 	)
 	(symbol
 		(lib_id "QFN8_BSC030N08NS5ATMA1_INF:BSC030N08NS5ATMA1")
-		(at 483.87 52.07 0)
+		(at 478.79 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25975,7 +26537,7 @@
 		(dnp no)
 		(uuid "fadff4fa-a509-498e-94cb-4e95db5e8545")
 		(property "Reference" "Q5"
-			(at 505.46 71.628 0)
+			(at 500.38 64.008 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25984,7 +26546,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 502.9201 71.12 90)
+			(at 497.8401 63.5 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25993,7 +26555,7 @@
 			)
 		)
 		(property "Footprint" "QFN8_BSC030N08NS5ATMA1_INF"
-			(at 483.87 52.07 0)
+			(at 478.79 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26003,7 +26565,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C501507.pdf"
-			(at 483.87 52.07 0)
+			(at 478.79 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26013,7 +26575,7 @@
 			)
 		)
 		(property "Description" "80V 100A 3mΩ@10V,50A 2.5W One N-channel TDSON-8(5x6) Single FETs, MOSFETs RoHS"
-			(at 483.87 52.07 0)
+			(at 478.79 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26186,7 +26748,7 @@
 	)
 	(symbol
 		(lib_id "GRM32ER71J106KA12L:GRM32ER71J106KA12L")
-		(at 480.06 33.02 90)
+		(at 474.98 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26194,7 +26756,7 @@
 		(dnp no)
 		(uuid "ff4cd4a8-8bcd-457f-849c-e59ff6792071")
 		(property "Reference" "C25"
-			(at 478.79 26.162 90)
+			(at 473.71 18.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26203,7 +26765,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 480.314 29.464 90)
+			(at 475.234 21.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26212,7 +26774,7 @@
 			)
 		)
 		(property "Footprint" "GRM32ER71J106KA12L:CAPC3225X270N"
-			(at 480.06 33.02 0)
+			(at 474.98 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26222,7 +26784,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C437568.pdf"
-			(at 480.06 33.02 0)
+			(at 474.98 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26231,7 +26793,7 @@
 			)
 		)
 		(property "Description" "63V 10uF X7R ±10% 1210 Ceramic Capacitors RoHS"
-			(at 480.06 33.02 0)
+			(at 474.98 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
