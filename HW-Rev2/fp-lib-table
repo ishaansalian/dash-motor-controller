@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "dash")(type "KiCad")(uri "${KIPRJMOD}/dash.pretty")(options "")(descr ""))
+)
